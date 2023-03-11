@@ -1,7 +1,7 @@
 {
   "name": "ssd-app",
+  "homepage": "https://sniderjustin.github.io/ssd-app/",
   "private": true,
-  "homepage": "http://sniderjustin.github.io/ssd-app"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
