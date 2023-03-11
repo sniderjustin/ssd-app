@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm run deploy
-      - run: git add /dist
+      - run: npm run build
+      - run: git add .
       - run: git commit -m "adding dist"
       - run: git push origin main
