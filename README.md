@@ -17,4 +17,4 @@ ssd-app
 
 4. Add `"homepage": "/ssd-app",` to the `package.json` file. The build will be configured for URL `user.github.io/ssd-app`, which is what GitHub pages will expect.
 
-5. Add the deployment key.
+5. Add the deployment key. 
