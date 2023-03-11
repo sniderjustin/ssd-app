@@ -16,17 +16,17 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: '18.x'
       - run: npm install
       - run: npm test
-      - run: npm run build
-      - run: git add dist -f
+      - run: npm run deploy
+      - run: git add /dist
       - run: git commit -m "adding dist"
-      - run: git subtree push --prefix dist origin gh-pages
+      - run: git push origin main
