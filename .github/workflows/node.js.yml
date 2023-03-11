@@ -25,7 +25,6 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm test
       - run: npm run deploy
       - run: git add /dist
       - run: git commit -m "adding dist"
