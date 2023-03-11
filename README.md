@@ -13,7 +13,7 @@ ssd-app
 
 5. `npm run dev`
 
-6. `npm i gh-pages -D`
+6. `npm install gh-pages --save-dev`
 
 4. Add `"homepage": "/ssd-app",` to the `package.json` file. The build will be configured for URL `user.github.io/ssd-app`, which is what GitHub pages will expect.
 
